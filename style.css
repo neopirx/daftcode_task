@@ -405,8 +405,8 @@ body {
 
 @media screen and (max-width: 600px) {
     body {
-        background-size: 300%;
-        background-position: 0em;
+        background-size: 200%;
+        background-position: -50em;
     }
 }
 
