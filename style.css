@@ -403,10 +403,24 @@ body {
     }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 500px) {
     body {
-        background-size: 200%;
-        background-position: -50em;
+        background-size: 350%;
+        background-position: -35em -12em;
+    }
+
+    .rotating_object_img {
+        margin-top: 3em;
+        width: 5em;
+    }
+    
+    .socialmedia {
+        margin-top: 2.5em;
+        font-size: 0.95em;
+    }
+
+    .socialmedia_list ul {
+        margin-top: 4em;
     }
 }
 
