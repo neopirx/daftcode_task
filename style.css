@@ -408,17 +408,14 @@ body {
         background-size: 350%;
         background-position: -35em -12em;
     }
-
     .rotating_object_img {
         margin-top: 3em;
         width: 5em;
     }
-    
     .socialmedia {
         margin-top: 2.5em;
         font-size: 0.95em;
     }
-
     .socialmedia_list ul {
         margin-top: 4em;
     }
@@ -426,20 +423,36 @@ body {
 
 @media screen and (max-width: 400px) {
     body {
-        height: 100vh;
         background-size: 350%;
         background-position: -30em;
     }
 }
 
 @media screen and (max-width: 375px) {
-.rotating_object_img {
-    margin-top: 2em;
-    width: 4em;
-}
-
+    .rotating_object_img {
+        margin-top: 2em;
+        width: 4em;
+    }
     .socialmedia {
         margin-top: 2em;
         font-size: 0.85em;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .content p {
+        margin-top: -1.2em;
+    }
+
+    .rotating_object_img {
+        margin-top: 1em;
+    }
+
+    .socialmedia {
+        font-size: 0.75em;
+    }
+
+    .socialmedia li {
+        margin-top: 1.8em;
     }
 }
