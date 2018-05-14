@@ -426,14 +426,20 @@ body {
 
 @media screen and (max-width: 400px) {
     body {
+        height: 100vh;
         background-size: 350%;
         background-position: -30em;
     }
 }
 
 @media screen and (max-width: 375px) {
+.rotating_object_img {
+    margin-top: 2em;
+    width: 4em;
+}
+
     .socialmedia {
-        margin-top: 1em;
-        font-size: 0.95em;
+        margin-top: 2em;
+        font-size: 0.85em;
     }
 }
