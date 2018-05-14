@@ -430,3 +430,10 @@ body {
         background-position: -30em;
     }
 }
+
+@media screen and (max-width: 375px) {
+    .socialmedia {
+        margin-top: 1em;
+        font-size: 0.95em;
+    }
+}
