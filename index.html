@@ -1,0 +1,96 @@
+<html>
+
+<head>
+    <title>Awesome</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:200,600" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="navigation-bar">
+        <div id="navigation-container">
+            <img class="page_logo" src="assets/logo_awesome.svg">
+            <img onclick="openNav()" class="hamburger_menu" src="assets/hamburger_menu.svg">
+            <ul class="navigation-list">
+                <li>
+                    <a class="underline_animation" href="#">FEATURES</a>
+                </li>
+                <li>
+                    <a class="underline_animation" href="#">CASE STUDIES</a>
+                </li>
+                <li>
+                    <a class="underline_animation" href="#">ABOUT</a>
+                </li>
+                <li>
+                    <a id="border" href="#">CONTACT</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div id="myNav" class="overlay">
+        <img class="page_logo_menu" src="assets/logo_awesome.svg">
+        <img class="closebtn" onclick="closeNav()" src="assets/iks.svg">
+        <div class="overlay-content">
+            <ul class="overlay_list">
+                <li>
+                    <a href="#">FEATURES</a>
+                </li>
+                <li>
+                    <a href="#">CASE STUDIES</a>
+                </li>
+                <li>
+                    <a href="#">ABOUT</a>
+                </li>
+                <li>
+                    <a id="border2" href="#">CONTACT</a>
+                </li>
+            </ul>
+            <ul class="overlay_icons">
+                <li><img class="socialmedia_icon" src="assets/fb.svg"></li>
+                <li><img class="socialmedia_icon" src="assets/twitter.svg"></li>
+                <li><img class="socialmedia_icon" src="assets/google+.svg"></li>
+            </ul>
+        </div>
+    </div>
+    <div class="content">
+        <p id="changeMe2">Not to make you feel dizzy but
+            <br> the challenge is worth it. Aim high,
+            <br> have fun,
+            <span style="color: white; font-family: 'Open Sans', sans-serif">be awesome</a>
+        </p>
+    </div>
+    <div id="container" class="rotating_object">
+        <img id="image" class="rotating_object_img" src="assets/kolko_kwadrat.svg">
+    </div>
+    <div class="socialmedia">
+        <p class="socialmedia_text">Look carefully and notice every detail, nothing tricky though.</p>
+        <ul class="socialmedia_list">
+            <li>
+                <img id="image" class="socialmedia_icon" src="assets/fb.svg">
+                <a>/ AWESOME</a>
+            </li>
+            <li>
+                <img id="image" class="socialmedia_icon" src="assets/twitter.svg">
+                <a>/ AWESOME</a>
+            </li>
+            <li>
+                <img id="image" class="socialmedia_icon" src="assets/google+.svg">
+                <a>/ AWESOME</a>
+            </li>
+        </ul>
+    </div>
+    <div style="position: absolute; left: 50%; bottom: 0px;">
+        <div class="triangle">
+            <a class="triangle_text" id="changeMe">MORE</a>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="crossorigin="anonymous"></script>
+    <script src="js/openMenu.js"></script>
+    <script src="js/rotate.js"></script>
+    <script src="js/changeText.js"></script>
+</body>
+
+</html>
