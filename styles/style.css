@@ -3,9 +3,7 @@ body {
     margin: 0;
     padding: 0;
     background: url("../assets/bg_image.jpg") no-repeat center center fixed;
-    /* Full height */
     height: 100%;
-    /* Center and scale the image nicely */
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -18,8 +16,6 @@ body {
     width: 12em;
     height: 100%;
 }
-
-/* ~~ Top Navigation Bar ~~ */
 
 #navigation-container {
     margin: 0 auto;
@@ -82,7 +78,6 @@ body {
     top: 0;
     left: 0;
     background-color: #001820;
-    /* background-color: rgba(255, 255, 255, 0.1); */
     overflow-x: hidden;
     transition: 0.5s;
 }
@@ -133,8 +128,6 @@ body {
     font-weight: 200;
 }
 
-/*underline animation */
-
 .underline_animation {
     text-decoration: none;
     position: relative;
@@ -169,6 +162,8 @@ body {
     background-color: white;
 }
 
+/*social media list styles*/
+
 .socialmedia {
     margin-top: 15em;
     text-align: center;
@@ -202,6 +197,8 @@ body {
     vertical-align: middle;
 }
 
+/*triangle at the bottom of the site styles*/
+
 .triangle {
     position: relative;
     left: -50%;
@@ -230,6 +227,8 @@ body {
     margin: 0px;
     font-family: 'Open Sans', sans-serif;
 }
+
+/* mobile navigation menu styles */
 
 .closebtn {
     width: 0.35em;
@@ -295,6 +294,8 @@ body {
     background-color: white;
 }
 
+/*rotating square with a circle */
+
 .rotating_object {
     position: relative;
     width: 100%;
@@ -316,6 +317,8 @@ body {
 .flip {
     transform: rotate(-180deg);
 }
+
+/*styles for different screen widths */
 
 @media screen and (max-width: 1920px) {
     body {
